@@ -28,7 +28,6 @@ section {
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
-    width: 33%; /* Taking up half the screen */
     max-width: 600px;
 }
 
