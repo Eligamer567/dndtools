@@ -1,0 +1,85 @@
+{
+    "Select a table":{
+    },
+    
+    "Wild_magic": {
+        "entries": [
+            "Roll on this table at the start of each of your turns for the next minute, ignoring this result.",
+            "You are possessed! A Demon inhabits your body and tries to influence you by whispering in your mind how great it would be to commit acts of evil.",
+            "You grow a 2nd head. This head has a different personality from you. Usually is in direct conflict with whatever you want or whatever decisions you make. The head will be RP'd by the DM and believe himself to be the true owner of your body. He will try to influence your decisions to find a way to remove your head and keep your body. The Extra Head can be removed with a Remove Curse Spell.",
+            "Random Creature within 50 ft of you is brought back to life at full HP. (none = nothing happens)",
+            "A Modron chosen and controlled by the DM appears within 5 ft of you for 1 min.",
+            "You cast Sleep as a 3rd Lvl spell centered on yourself.",
+            "You cast Fireball as a 3rd Lvl spell centered on yourself",
+            "For the next minute, your weapon becomes sentient with the soul of the last creature you killed.",
+            "Re-Roll twice for 2 simultaneous effects on this table, ignoring this result.",
+            "Until the next sunrise, the last creature you killed appears as a ghost and follows you around. Everyone can see and hear it, but it will only interact with you. It is unaffected by all attacks and spells and pesters you the entire time. Some will trash talk you, others will moan about being dead, some will just shriek the entire time.",
+            "Roll a d10. Your height changes by that many inches. Odd = Shrink | Even = Grow",
+            "Amnesia hits you and you can't remember who you are for 4d4 hours.",
+            "You cast confusion on yourself.",
+            "For the next minute, magical darkness fills the area within 10 ft of you.",
+            "For the next minute, you regain 5 HP at the start of your turn.",
+            "1d100 gold coins rain down in a 30 ft radius. Anyone caught in the radius takes 1d10 points of damage. Coins vanish after 1d10 minutes.",
+            "You believe you are a Raging Barbarian for 1d4 rounds. You don’t know how to use magic and can only make melee attacks.",
+            "Earthquake! The earth rumbles around you. Everyone in a 50 ft radius of you must make a DC 15 Dex save or be knocked prone.",
+            "You cast grease centered on yourself.",
+            "You find yourself surrounded by 1d100 Rats.",
+            "A rain of fish starts with you at the center. 1d6 fish fall from the sky per 5 ft. Each does only 1 point of damage. Lasts for 1d6 rounds. 2 mile radius. The fish do not disappear after the rain ends.",
+            "Your skin turns a vibrant shade of blue. Only a Remove Curse Spell can end the effect.",
+            "An eye appears on your forehead and gives you advantage on Perception checks based on sight for 1 minute.",
+            "You grow extra limbs for 24 hours. Roll a 1d6. Stats do not change, the limbs mimic your regular limbs motions. 6 or 5 = Nothing 4 = 1 Arm 3 = 1 Leg 2 = 2 arms 1 = 2 arms and 1 leg.",
+            "The Nearest dead body to the caster becomes a Zombie and attacks the caster.",
+            "You set the nearest forest ablaze.",
+            "Each creature within 20 ft of you becomes confused for the next 1d6 rounds. Roll a d10 at the start of its turn to determine its behavior.",
+            "You teleport 60 ft to the closest unoccupied space in a random direction (1d8)",
+            "Caster summons an animal as if from the Rust Colored PokeBag. Roll a 1d6. Animal listens to your commands and uses its action on your turn.",
+            "You are transported to the Astral Plane until the start of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied.",
+            "1 Random creature within 50 ft of the caster becomes invulnerable for 1d4 rounds.",
+            "1 Random creature within 50 ft of the caster becomes empowered for 1d4 rounds. Will automatically score a crit on any hit for the duration.",
+            "Draw a card form the Deck of many things. Better not get unlucky!",
+            "1 Random creature within 20 ft of you becomes friendly towards you until the end of its next turn.",
+            "Roll a d20. Your age changes by that many years. Odd = Younger | Even = Older",
+            "Your ability to cast magic is affected. For 1d6 rounds, any time you cast a spell, the effects are replaced by another spell of the same level. The DM rolls to determine the spell. The spell does not have to be class specific.",
+            "1d6 Flumphs controlled by the DM appear within 60 ft of you and are frightened of you. They vanish after 1 minute.",
+            "You swap places with the target of your last spell. If no target, the closest creature to you.",
+            "You regain 1d10 HP.",
+            "Avalanche! The closest mountain to you has an avalanche occur. If you are on a mountain, you better start running!",
+            "You turn into a Potted Plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 HP, the pot breaks and your form reverts setting you at 1 HP.",
+            "A torrent of knowledge floods your mind and you suddenly know the answer to the meaning of life. And it drives you mad! Roll on the Short Term Madness Table. Effect lasts for 1d6 rounds. Then you forget the meaning of life unfortunately, but it's always right there on the tip of your tongue.",
+            "For the next minute, you can teleport up to 20 ft as a bonus action on each turn.",
+            "Your target's size increases one category for 1d4 rounds.",
+            "Your target's size decreases one category for 1d4 rounds.",
+            "You cast Levitate on yourself.",
+            "A unicorn controlled by the DM appears in a space within 5 ft of you for 1 minute.",
+            "You can't speak for the next minute. Whenever you try, you vomit profusely.",
+            "Re-Roll on this table.",
+            "No effect at all. You feel calm and relieved that nothing weird happened when you used magic for once.",
+            "You cannot stand still for the next 10 minutes. (If in combat, you must move as least one space every time)",
+            "Target clones it's self (Doesn't have to be in combat)",
+            "You are immune to being intoxicated by alcohol for the next 3d6 days.",
+            "An unattended object within 20 ft of you suddenly bursts into flames.",
+            "Your hair falls out. But grows back in 24 hours.",
+            "One random creature within 20 ft of you is blinded for 1d6 rounds.",
+            "For the next minute, any flammable object you touch that isn't being worn or carried bursts into flames.",
+            "All creatures within 10ft of you must succeed on a STR save, DC = 15 or be pushed 15ft away from you.",
+            "2d20 Trees grow out of the ground, all around you.",
+            "Target disarmed - The target is so taken aback by the spell you just cast, it drops anything it's holding. If no target, no effect."
+        ]
+    },
+    "Treasure": {
+        "entries": [
+            "50 gold coins",
+            "Potion of Healing",
+            "Mysterious Key",
+            "Cursed Ring (-1 Strength)"
+        ]
+    },
+    "Random_encounter":{
+        "entries": [
+            "1d4 Goblins",
+            "A traveling merchant offers you a deal",
+            "A sudden earthquake shakes the ground",
+            "A swarm of bats flies past you"
+        ]
+    }
+}

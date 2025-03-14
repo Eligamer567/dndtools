@@ -1,0 +1,432 @@
+{
+    "White dragon (Ancient)":{
+        "stats":{
+            "AC":20,
+            "Hitpoints":333,
+            "Movement":"40ft ground, 40ft burrow 80ft flight, 40ft swim",
+            "Senses":"blindsight 60 ft., darkvision 120 ft., passive Perception 21",
+            "Saving_throws":"Dex +6, Con +14, Wis +7, Cha +8"
+        },
+        "mainstats":{
+            "str":26,
+            "dex":10,
+            "con":26,
+            "int":10,
+            "wis":13,
+            "chr":14
+        },
+        "weapons":{
+            "ColdBreath":{
+                "type":"AOE",
+                "range":"60ft cone",
+                "useStat":"",
+                "atkbonus":"n/a",
+                "hits":{
+                    "1":{
+                        "type":"cold",
+                        "BaseDMG":[12,8,0],
+                        "SavingThrow":[19,"CON"],
+                        "SaveMulti":"half",
+                        "extraEffect":"None"
+                    }
+                },
+                "info":"The dragon exhales an icy blast in a 60-foot cone."
+            },
+            "Bite":{
+                "type":"Melee",
+                "range":"10ft",
+                "useStat":"",
+                "atkbonus":11,
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[12,8,4],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "claw":{
+                "type":"Melee",
+                "range":"5ft",
+                "atkbonus":11,
+                "useStat":"",
+                "hits":{
+                    "1":{
+                        "type":"slashing",
+                        "BaseDMG":[2,6,6],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "tail":{
+                "type":"Melee",
+                "range":"15ft",
+                "atkbonus":11,
+                "useStat":"",
+                "hits":{
+                    "1":{
+                        "type":"bludgioning",
+                        "BaseDMG":[2,8,6],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            }
+        },
+        "LengendaryActions":{
+            "detect":"make a preception check",
+            "tail attack":" The dragon makes a tail attack.",
+            "Wing attack (2 actions)":" The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+        },
+        "extra":{
+            "Damage immunities":"Cold",
+            "Ice walk":"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment.",
+            "Frightful presence":" (dc 16 wis)",
+            "3 actions, 3 legendary per turn":""
+        }
+    },
+    "White dragon (Adult)":{
+        "stats":{
+            "AC":18,
+            "Hitpoints":200,
+            "Movement":"40ft ground, 40ft burrow, 80ft flight, 40ft swim",
+            "Senses":"blindsight 60 ft., darkvision 120 ft., passive Perception 18",
+            "Saving_throws":"Dex +5, Con +10, Wis +5, Cha +6"
+        },
+        "mainstats":{
+            "str":22,
+            "dex":10,
+            "con":22,
+            "int":8,
+            "wis":12,
+            "chr":12
+        },
+        "weapons":{
+            "ColdBreath":{
+                "type":"AOE",
+                "range":"60ft cone",
+                "useStat":"",
+                "atkbonus":"n/a",
+                "hits":{
+                    "1":{
+                        "type":"cold",
+                        "BaseDMG":[10,8,0],
+                        "SavingThrow":[18,"CON"],
+                        "SaveMulti":"half",
+                        "extraEffect":"None"
+                    }
+                },
+                "info":"The dragon exhales an icy blast in a 60-foot cone."
+            },
+            "Bite":{
+                "type":"Melee",
+                "range":"10ft",
+                "useStat":"",
+                "atkbonus":10,
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[2,10,6],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "Claw":{
+                "type":"Melee",
+                "range":"5ft",
+                "atkbonus":10,
+                "useStat":"",
+                "hits":{
+                    "1":{
+                        "type":"slashing",
+                        "BaseDMG":[2,6,6],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "Tail":{
+                "type":"Melee",
+                "range":"15ft",
+                "atkbonus":10,
+                "useStat":"",
+                "hits":{
+                    "1":{
+                        "type":"bludgeoning",
+                        "BaseDMG":[2,8,6],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            }
+        },
+        "LegendaryActions":{
+            "Detect":"The dragon makes a Perception check.",
+            "Tail Attack":"The dragon makes a tail attack.",
+            "Wing Attack (2 actions)":"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+        },
+        "extra":{
+            "Damage immunities":"Cold",
+            "Ice Walk":"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement.",
+            "Frightful Presence":"(DC 16 Wis)",
+            "3 actions, 3 legendary per turn":""
+        }
+    },
+    "White dragon (Young)":{
+        "stats":{
+            "AC":17,
+            "Hitpoints":133,
+            "Movement":"40ft ground, 20ft burrow, 80ft flight, 40ft swim",
+            "Senses":"blindsight 30 ft., darkvision 120 ft., passive Perception 14",
+            "Saving_throws":"Dex +3, Con +6, Wis +3, Cha +4"
+        },
+        "mainstats":{
+            "str":18,
+            "dex":10,
+            "con":18,
+            "int":6,
+            "wis":11,
+            "chr":12
+        },
+        "weapons":{
+            "ColdBreath":{
+                "type":"AOE",
+                "range":"30ft cone",
+                "useStat":"",
+                "atkbonus":"n/a",
+                "hits":{
+                    "1":{
+                        "type":"cold",
+                        "BaseDMG":[8,8,0],
+                        "SavingThrow":[15,"CON"],
+                        "SaveMulti":"half",
+                        "extraEffect":"None"
+                    }
+                },
+                "info":"The dragon exhales an icy blast in a 30-foot cone."
+            },
+            "Bite":{
+                "type":"Melee",
+                "range":"10ft",
+                "useStat":"",
+                "atkbonus":7,
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[2,10,4],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "Claw":{
+                "type":"Melee",
+                "range":"5ft",
+                "atkbonus":7,
+                "useStat":"",
+                "hits":{
+                    "1":{
+                        "type":"slashing",
+                        "BaseDMG":[2,6,4],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            }
+        },
+        "extra":{
+            "Damage immunities":"Cold",
+            "Ice Walk":"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement."
+        }
+    },
+    "White dragon (Wyrmling)":{
+        "stats":{
+            "AC":16,
+            "Hitpoints":32,
+            "Movement":"30ft ground, 15ft burrow, 60ft flight, 30ft swim",
+            "Senses":"blindsight 10 ft., darkvision 60 ft., passive Perception 12",
+            "Saving_throws":"Dex +2, Con +3, Wis +2, Cha +2"
+        },
+        "mainstats":{
+            "str":14,
+            "dex":10,
+            "con":14,
+            "int":5,
+            "wis":10,
+            "chr":11
+        },
+        "weapons":{
+            "ColdBreath":{
+                "type":"AOE",
+                "range":"15ft cone",
+                "useStat":"",
+                "atkbonus":"n/a",
+                "hits":{
+                    "1":{
+                        "type":"cold",
+                        "BaseDMG":[5,8,0],
+                        "SavingThrow":[12,"CON"],
+                        "SaveMulti":"half",
+                        "extraEffect":"None"
+                    }
+                },
+                "info":"The dragon exhales an icy blast in a 15-foot cone."
+            },
+            "Bite":{
+                "type":"Melee",
+                "range":"5ft",
+                "useStat":"",
+                "atkbonus":4,
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[1,10,2],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            }
+        },
+        "extra":{
+            "Damage immunities":"Cold",
+            "Ice Walk":"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement."
+        }
+    },
+    "Kobold":{
+        "stats":{
+            "AC":15,
+            "Hitpoints":20,
+            "Movement":"30ft",
+            "Senses":"darkvision 60 ft, passive Perception 8",
+            "Saving_throws":"Dex +2"
+        },
+        "mainstats":{
+            "str":12,
+            "dex":15,
+            "con":14,
+            "int":12,
+            "wis":13,
+            "chr":11
+        },
+        "weapons":{
+            "rapier":{
+                "type":"Melee",
+                "range":"5ft",
+                "useStat":"dex",
+                "atkbonus":0,
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[1,8,0],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "Dagger":{
+                "type":"Melee",
+                "range":"5ft",
+                "useStat":"dex",
+                "atkbonus":0,
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[1,4,2],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            },
+            "Shortbow":{
+                "type":"Ranged",
+                "range":"30/120 ft",
+                "atkbonus":4,
+                "useStat":"dex",
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[1,6,0],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            }
+        },
+        "extra":{
+            "Pack Tactics":"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn’t incapacitated.",
+            "Draconic roar":"Bonus action, give advantage against any targets within 10ft that could hear you",
+            "Damage Resistances":"None",
+            "Languages":"Common, Draconic"
+        }
+    },
+    "Dinero Aposto":{
+        "stats":{
+            "AC":20,
+            "Hitpoints":48,
+            "Movement":"30ft",
+            "Senses":"darkvision 60 ft, passive Perception 8",
+            "Saving_throws":"Dex, Int"
+        },
+        "mainstats":{
+            "str":16,
+            "dex":20,
+            "con":18,
+            "int":16,
+            "wis":18,
+            "chr":20
+        },
+        "weapons":{
+            "Shortbow":{
+                "type":"Ranged",
+                "range":"30/120 ft",
+                "atkbonus":3,
+                "useStat":"dex",
+                "hits":{
+                    "1":{
+                        "type":"piercing",
+                        "BaseDMG":[1,6,0],
+                        "SavingThrow":"none",
+                        "SaveMulti":1,
+                        "extraEffect":"None"
+                    }
+                },
+                "info":""
+            }
+        },
+        "extra":{
+            "Pack Tactics":"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn’t incapacitated.",
+            "Draconic roar":"Bonus action, give advantage against any targets within 10ft that could hear you",
+            "Damage Resistances":"None",
+            "Languages":"Common, Draconic",
+            "9 luck points":""
+            
+        }
+    }
+}

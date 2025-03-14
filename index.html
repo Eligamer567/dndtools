@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>D&D Tools</h1>
+    </header>
+
+    <main class="main-container">
+        <!-- Table Viewer Section -->
+        <section id="table-viewer" class="viewer">
+            <h2>Table Viewer</h2>
+            <label for="table-dropdown">Choose a Table:</label>
+            <select id="table-dropdown" onchange="loadTable()">
+                <option value="">Select a Table</option>
+            </select>
+            <button id="roll-table">Roll on Table</button>
+            <div id="table-contents"></div>
+            
+            <!-- Page Navigation -->
+            <div id="page-navigation">
+                <button id="prev-page" disabled>Previous</button>
+                <span id="page-label">Page 1 of 1</span>
+                <button id="next-page" disabled>Next</button>
+            </div>
+
+            <button onclick="saveTable()">Save Table</button>
+            <button onclick="loadTableFromStorage()">Load Table</button>
+            <button onclick="exportTable()">Export Table</button>
+
+        </section>
+
+        <!-- Dice Roller Section -->
+        <section id="dice-roller" class="roller">
+            <h2>Dice Roller</h2>
+            <label for="dice">Choose Dice:</label>
+            <select id="dice">
+                <option value="2">Coin Flip</option>
+                <option value="4">D4</option>
+                <option value="6">D6</option>
+                <option value="8">D8</option>
+                <option value="10">D10</option>
+                <option value="12">D12</option>
+                <option value="20" selected>D20</option>
+                <option value="100">D100</option>
+            </select>
+            <button onclick="addDice()">Add Dice</button>
+            
+            <h3>Selected Dice:</h3>
+            <ul id="selected-dice"></ul>
+            <button onclick="rollDice()">Roll</button>
+            <p id="result"></p>
+        </section>
+
+        <!-- Preset Roller Section -->
+        <section id="preset-roller">
+            <h2>Preset Roller</h2>
+            <button onclick="rollDice()">Roll Dice</button>
+            <select id="preset-dropdown" onchange="loadPreset(this.value)">
+                <option value="">None</option>
+            </select>
+            <span id="selected-preset-label">Selected: None</span>
+            
+            <!-- Preset Management -->
+            <div id="preset-settings">
+                <button onclick="savePreset()">Save Local</button>
+                <button onclick="exportPresets()">Export</button>
+                <button onclick="importFile.click()">Load from File</button>
+                <input type="file" id="importFile" style="display: none;" onchange="importPresets(event)" />
+            </div>
+        </section>
+
+        <!-- Damage Calculator Section -->
+<section id="damage-calculator" class="damage">
+    <h2>Monster Stats & Damage Calculator</h2>
+    
+    <!-- Character Selection Dropdown -->
+    <label for="character-select">Select Character:</label>
+    <select id="character-select" onchange="chooseCharacter()">
+        <option value="">-- Select --</option>
+    </select>
+
+    <!-- Character Stats Display -->
+    <div id="character-stats" class="stats-box"></div>
+
+    <!-- Character Abilities Display -->
+    <div id="character-abilities" class="abilities-box"></div>
+
+    <!-- Output Box for Damage Result -->
+    <p id="damage-output" class="output-box">Damage will appear here.</p>
+
+    <!-- List of Weapons -->
+    <h3>Weapons</h3>
+    <ul id="weapon-list"></ul>
+
+    <!-- Save/Load/Export Buttons -->
+    <div id="character-settings">
+        <button onclick="saveCharacter()">Save Local</button>
+        <button onclick="exportCharacter()">Export</button>
+        <button onclick="document.getElementById('importCharacter').click()">Load from File</button>
+        <input type="file" id="importCharacter" style="display: none;" onchange="importCharacter(event)">
+    </div>
+</section>
+
+    </main>
+
+    <!-- JavaScript Files -->
+    <script src="js/damageCalculator.js"></script>
+    <script src="js/tableRoller.js"></script>
+    <script src="js/diceRoller.js"></script>
+    <script src="js/chocolateChips.js"></script>
+    <script src="js/titlememes.js"></script>
+</body>
+</html>
